@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="576a0ee7-00ae-43ef-90e5-ec003cbeebf5">
+  <producedTypes>
+    <objectType typeId="1bd2e98e-a850-490d-8ccc-1752db4a2809" valueTypeId="52199e75-4dc5-4fca-a5ce-2d3357cd2dc8"/>
+    <refType typeId="2e2945f6-4802-4941-ae01-beff59f45a8b" valueTypeId="b7b572b9-43dd-48f9-bd5e-683df47f991d"/>
+    <selectionType typeId="96356394-76e4-43fa-a9a1-b960d2367faa" valueTypeId="3d3b01d4-abd5-4c93-9ef3-dcf82ad0799d"/>
+    <listType typeId="5ceab166-cb38-41cb-b49d-11290bc1c786" valueTypeId="ef656660-e24e-4f4c-b823-f637d6e3d423"/>
+    <managerType typeId="1a064a50-060b-40c7-8463-a2c97431b057" valueTypeId="feb29ca2-3d2c-4a96-8fcc-f4a801b01891"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>80</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="589e9ede-e2a2-4f09-9cd3-9ab8d27e9a74">
+    <producedTypes>
+      <objectType typeId="0a20c7ae-90e1-4dbe-b8c7-80c4059cb1e4" valueTypeId="a7e7d92f-c4fd-4f86-8bb9-234d48807df7"/>
+      <rowType typeId="b2baeee4-4e50-4762-b6ce-25730cabd87c" valueTypeId="9b5d5d7f-8a12-47bc-91cf-c86c75f6b36a"/>
+    </producedTypes>
+    <name>ТрудоваяДеятельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовая деятельность</value>
+    </synonym>
+    <attributes uuid="fb19739e-1e80-43c4-b5cc-65904e8626c0">
+      <name>ДатаНачалаРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала работы</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c79aaf30-30cd-4436-a417-c6a20109f30a">
+      <name>ДатаУвольнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата увольнения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="302d5e8d-9398-4350-a6e9-e30fe8f037a3">
+      <name>МестоРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Место работы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4114b35-e278-4d32-9b4f-63857cf88f3f">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>80</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

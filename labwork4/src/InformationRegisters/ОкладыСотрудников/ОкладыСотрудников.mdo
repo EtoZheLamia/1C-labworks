@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="265ede0e-06f6-41b9-abfc-68d450baa009">
+  <producedTypes>
+    <selectionType typeId="3d2d3270-9c24-4d68-8852-5447bb695c37" valueTypeId="3cf52ccf-147d-445a-97a8-9e2e264424d2"/>
+    <listType typeId="39a9458b-54b1-4599-b06a-12e1710bd744" valueTypeId="b8823145-99a6-4291-8453-6cd086999f27"/>
+    <managerType typeId="53402901-1b7c-4e59-8038-b7a1c2dbc0d6" valueTypeId="a7530c44-150d-4e6e-b7b7-04d6a0addbfb"/>
+    <recordSetType typeId="e46bda99-8bb0-4f7c-8b45-e2e55501f126" valueTypeId="1e0522e2-04f6-4e29-bcaf-a206bdc87e26"/>
+    <recordKeyType typeId="3b8ff1ca-a424-4716-a215-59c07b4206ad" valueTypeId="aa5b952d-cbee-4dc8-8e6e-4fd5ddef4c93"/>
+    <recordType typeId="5eb80e2b-64c8-44c1-b1de-3f3aadf3f3a8" valueTypeId="8fa600e7-db06-478e-9614-6f91325a3450"/>
+    <recordManagerType typeId="b6ffd5e3-acb1-46f1-96b2-3412c8a9eed7" valueTypeId="0bc1fa3c-e80e-4667-a89a-dd4375e1d857"/>
+  </producedTypes>
+  <name>ОкладыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оклады сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Оклад сотрудника</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Оклад сотрудника</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Оклады сотрудников</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Оклады сотрудников</value>
+  </extendedListPresentation>
+  <resources uuid="c59fb4a3-87ad-4831-b9c1-472b487fb0cf">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b5f99459-cd8f-4582-8bd0-4990bce07fbb">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
