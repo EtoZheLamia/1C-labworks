@@ -35,4 +35,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Экскурсии</catalogs>
+  <documents>Document.Бронь</documents>
+  <documents>Document.ПосещениеЭкскурсии</documents>
+  <enums>Enum.СпособОплаты</enums>
+  <reports>Report.ОтчетПоПродажамЭкскурсий</reports>
+  <accumulationRegisters>AccumulationRegister.ПродажиЭкскурсий</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db9b75cc-d60f-4c55-a1c5-d50d93c151eb">
+  <producedTypes>
+    <objectType typeId="c5c24842-7e98-43f6-95a9-b59edc363ea1" valueTypeId="31c4b57c-d3c6-4f4d-bfac-0ef839eb879e"/>
+    <refType typeId="b9d30f49-c7c0-404e-bd3a-dd1650b1e7d2" valueTypeId="87940e9b-f24c-40a6-a09a-953acd52cc8a"/>
+    <selectionType typeId="499659d2-2e19-4797-a3d2-6d4999a25beb" valueTypeId="25a9a1d9-4546-4e41-8e9e-ee321bb9f414"/>
+    <listType typeId="70566197-9ec9-4367-8fff-7a26c96df95b" valueTypeId="1049ccee-a9c2-4713-a58d-479692f2aade"/>
+    <managerType typeId="b0e9b5f3-9f3d-4414-9fc5-517fdd13bb0d" valueTypeId="da893057-4b62-49e1-9b4b-d3f623dd541f"/>
+  </producedTypes>
+  <name>Бронь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Бронь.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бронь</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Бронь</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Бронирования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Бронирования</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Бронь.Form.ФормаДокумента</defaultObjectForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="05afb45c-f3ba-4ad5-b6ea-b09faae4f408">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a57b4b3c-96b7-41e7-a432-9fbd426e0ae8">
+    <name>ОбщаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="999d884f-81c0-480e-97f4-b144263aecb5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="75d2032e-b3e9-46f9-9af4-accf9d0557be">
+    <producedTypes>
+      <objectType typeId="eb043ac9-d4d5-4874-91d0-34a2e7f14343" valueTypeId="6d405149-3de3-4b11-ae3b-4e56e9cb0995"/>
+      <rowType typeId="33c490ca-9925-4517-9cfd-3d477db86f2d" valueTypeId="9e58322c-20dc-4594-b782-0d0c61e148ad"/>
+    </producedTypes>
+    <name>Экскурсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экскурсии</value>
+    </synonym>
+    <attributes uuid="304a7666-1c98-40e6-b4e2-d2f2a4c35c56">
+      <name>Экскурсия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Экскурсия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Экскурсии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="744697f7-f601-4c89-86e4-9102f5aba3f9">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46c3dafb-42ab-450d-b28f-d2c26cfe1373">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

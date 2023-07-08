@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb4491fa-7741-40fd-a04f-7fd384d83cd1">
+  <producedTypes>
+    <selectionType typeId="520e0f7b-6ce2-475e-b79f-44e86345a490" valueTypeId="8b4b5625-3a18-4847-a5db-7ed558e22ffd"/>
+    <listType typeId="7086a655-8fbf-4cc2-a74c-5fcc4ff1920f" valueTypeId="1b42e77b-4ff0-4e55-b3bb-427ce7061c69"/>
+    <managerType typeId="2f8f546e-3fac-465e-beeb-7a4319c5ebd8" valueTypeId="abcd6e1d-537f-46b4-9d1a-18399b008350"/>
+    <recordSetType typeId="d15ca192-9b4b-438d-8eca-40aad7abf1b4" valueTypeId="86f16efd-36fb-4c6f-806a-59ce54da3ba0"/>
+    <recordKeyType typeId="30cb66d0-ba6a-4928-8f48-c5842e5980a3" valueTypeId="b446b4bc-0363-40e9-ad78-1adb69ccdf29"/>
+    <recordType typeId="7965a772-df2c-4f0d-a775-021297803327" valueTypeId="41c182ad-85dd-4a33-9d88-8cabcd676b83"/>
+  </producedTypes>
+  <name>ПродажиЭкскурсий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи экскурсий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c538a70a-303a-41df-9e8b-6aafd241c137">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="979d2836-c2a4-403f-acc5-9feea1f23604">
+    <name>СпособОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="7bdae72e-7a1f-45fb-a970-2168bebccdfe">
+    <name>Экскурсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экскурсия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Экскурсии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

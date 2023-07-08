@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d13410a4-afd7-4615-ba51-0247af5ee709">
+  <producedTypes>
+    <objectType typeId="69d6f577-8574-4e27-873b-45cad1e48284" valueTypeId="6b7d01af-cd26-4422-9033-d9b35c89e865"/>
+    <refType typeId="163383df-10fa-4fe8-9d98-3f92d5e9cad6" valueTypeId="06e96d2f-5113-405e-9a88-776eb27887b6"/>
+    <selectionType typeId="24ece3b8-e735-43cc-bace-fbc458a74e8c" valueTypeId="0f28db43-5ae9-4495-94dc-e47134b44d5b"/>
+    <listType typeId="123c769e-f53f-4ce4-9fe9-17bfa35f948b" valueTypeId="996c29d1-a8a8-4a4f-b780-5f9d52d1e293"/>
+    <managerType typeId="141b7c53-9aba-4caf-93d8-2f7a5627317d" valueTypeId="eeb57760-ff52-4dd6-80be-591cf0bc14b1"/>
+  </producedTypes>
+  <name>Экскурсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экскурсии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Экскурсии.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Экскурсии.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Экскурсия</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Экскурсия</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Экскурсии</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Экскурсии</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="01314637-f3e9-412f-805b-c0b170003fec">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

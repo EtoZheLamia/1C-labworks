@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f1d6953-b6f2-4fc3-b4e4-b5b92e77004e">
+  <producedTypes>
+    <objectType typeId="250f448b-f94a-4f97-8608-b5cac51a29d3" valueTypeId="bab1d94d-0f14-4f3f-b43e-93114fdd8908"/>
+    <refType typeId="5efe7726-5864-4996-bec4-df6b409a1e17" valueTypeId="d6ba44b0-3738-43b7-bfc1-61d26373a951"/>
+    <selectionType typeId="c0e7fe66-73ab-4d7f-9af4-a2d1170e6f62" valueTypeId="0043f873-562f-4c61-a511-301ab23f4ed9"/>
+    <listType typeId="c1c28f28-7fed-46d5-bf42-ca4c7f0008a7" valueTypeId="1558e04b-9df2-403b-864a-1a89ae865556"/>
+    <managerType typeId="2c15d76e-129a-4566-a34e-98428d2806a1" valueTypeId="324dc10c-c32e-46ee-89ba-43ed9fded26c"/>
+  </producedTypes>
+  <name>ПосещениеЭкскурсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещение экскурсии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПосещениеЭкскурсии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.Бронь</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>ПосещениеЭкскурсии</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>ПосещениеЭкскурсии</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>ПосещениеЭкскурсии</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>ПосещениеЭкскурсии</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПосещениеЭкскурсии.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПродажиЭкскурсий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ea2df96c-62ab-4f76-884c-8a3e63937e4d">
+    <name>Бронь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронь</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Бронь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7606e7c6-e1bc-4a2f-b851-6547cb41eff8">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97a91e27-0d8b-446d-a999-a4d29ac415ae">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03100864-9d94-4b23-bd40-48ef26ee5c85">
+    <name>СпособОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="11082180-77ad-4efc-9a3b-3a12e38a794a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d0b42ab3-5ae1-4a3a-b074-e3f567080547">
+    <producedTypes>
+      <objectType typeId="3359924e-b2ef-46ac-bc90-2f9251c9be76" valueTypeId="d05a0d48-26f9-40e8-9b2a-544c4bdee928"/>
+      <rowType typeId="c5896ace-edd8-4ad6-8a5d-d077f8e89e05" valueTypeId="ace2c47b-dafd-4470-837f-a3e131c058b4"/>
+    </producedTypes>
+    <name>Экскурсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экскурсии</value>
+    </synonym>
+    <attributes uuid="0fe2e8cb-aeac-4b3f-98a5-d8ef8370554f">
+      <name>Экскурсия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Экскурсия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Экскурсии</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be34fb53-19f1-435b-a9e9-e2df8c86903d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e3feaa8-90c8-4464-afb3-5439ad69b6c4">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

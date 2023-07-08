@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25e8e0b9-8b93-41d1-8150-a9bea52918f4">
+  <producedTypes>
+    <objectType typeId="0af28d00-9444-4d3d-b801-112ebc178deb" valueTypeId="521b6ff3-a201-4996-bbbd-e003c9a2f0c0"/>
+    <refType typeId="bf2d877c-afd9-4ff4-9a51-b4c50b66795f" valueTypeId="957150ad-0b9d-45ae-9fe1-8a555b1f35ce"/>
+    <selectionType typeId="c3935d23-5e89-486b-96cd-4ec92a5d3313" valueTypeId="7731e31f-c892-43c1-be05-5ff68d007cd6"/>
+    <listType typeId="647a7039-11cb-4cda-b1e8-5b38fec0d3f6" valueTypeId="1f62b4ce-58dd-4c9a-beb8-13a7f442b3e9"/>
+    <managerType typeId="54699c3e-4af4-4e54-af94-5c51bf324096" valueTypeId="b2bb5f9c-4c6c-4aae-8680-e5af1138a103"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>90</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
