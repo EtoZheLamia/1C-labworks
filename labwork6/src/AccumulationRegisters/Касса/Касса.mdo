@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64c72b0f-195e-4925-a4b2-52822e02780a">
+  <producedTypes>
+    <selectionType typeId="4b500f6f-eb1e-4e83-8d14-84fd18c60742" valueTypeId="4d01f6b4-09f0-4291-909d-fafd026d18cd"/>
+    <listType typeId="44a7a6ab-4118-40d3-973c-f602a7b9ced9" valueTypeId="d0c6c39a-2371-4283-9177-2a644693b660"/>
+    <managerType typeId="cc2c68c3-a58c-4de7-bc9f-d4fa993df0db" valueTypeId="30b7cfec-33bd-4178-a96c-9287764a9722"/>
+    <recordSetType typeId="24fbd5d9-5ead-4bff-9ae0-89bc7e7a7fe9" valueTypeId="cb7ead61-30c3-44ed-a8fb-5bc6bfb41096"/>
+    <recordKeyType typeId="6a539b92-149b-4010-8ba4-a4d6bdb492aa" valueTypeId="3d0cafab-49a1-49c3-ac50-890957a16b66"/>
+    <recordType typeId="7f1941dd-fd75-4737-8c5e-97471f5f24ba" valueTypeId="cf28b751-5021-4155-9eac-e5cbcbe14342"/>
+  </producedTypes>
+  <name>Касса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Касса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3facec16-f90d-48c1-a377-c7a9387a0405">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9e26a214-31f2-4b5f-8a41-d51a4ef5fa71">
+    <name>СчетОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СчетаОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

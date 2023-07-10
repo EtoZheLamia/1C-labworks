@@ -39,4 +39,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщийМодульВызовСервера</commonModules>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СчетаОрганизации</catalogs>
+  <documents>Document.ПриходныйКассовыйОрдер</documents>
+  <documents>Document.РасходныйКассовыйОрдер</documents>
+  <documentNumerators>DocumentNumerator.КассовыеДокументы</documentNumerators>
+  <documentJournals>DocumentJournal.КассовыеДокументы</documentJournals>
+  <enums>Enum.Валюта</enums>
+  <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
 </mdclass:Configuration>

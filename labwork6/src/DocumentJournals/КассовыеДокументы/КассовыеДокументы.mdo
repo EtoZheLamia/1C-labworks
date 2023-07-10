@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8467fc79-5752-414a-ac41-0a9deca99be2">
+  <producedTypes>
+    <selectionType typeId="92fcd3c5-955c-4115-aa42-17b221ea6555" valueTypeId="680abdcb-d376-4d46-b5a2-c1b1e0adfc52"/>
+    <listType typeId="39307e19-66f7-4031-aa48-ec068324b624" valueTypeId="3331abe3-9113-41a3-9426-9ef8d373918d"/>
+    <managerType typeId="8b944784-985f-43a6-ba1c-48eac57bc891" valueTypeId="e19c59ef-3787-4f05-a29d-dad976bfa4a5"/>
+  </producedTypes>
+  <name>КассовыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовые документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.КассовыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <columns uuid="a8503387-df62-47cf-85cb-750c9335b0c3">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Контрагент</references>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="7858ee4b-f811-4158-b83f-f962153fda64">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Сумма</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Сумма</references>
+  </columns>
+  <columns uuid="3f0cb393-df2c-4e67-a6b5-bc464efe011b">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Счет</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Счет</references>
+  </columns>
+  <columns uuid="21ebe162-39d6-47c3-b8b8-8606016d6ebc">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Валюта</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Валюта</references>
+  </columns>
+  <forms uuid="2889a292-509d-4a98-a63e-ba9739269742">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>
