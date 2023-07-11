@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="729fb521-d87d-4d21-b09c-b805bd46876f">
+  <producedTypes>
+    <objectType typeId="d12f0920-72df-420c-97a4-07cd6adf8bc2" valueTypeId="6e2a506a-5f3c-4510-883c-2d4f75696a5c"/>
+    <managerType typeId="ac777ed1-4e63-4912-9add-cd6776a9d118" valueTypeId="4b03772a-e803-4882-8038-c73677efa112"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КурсыВалют.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="89bd5ac0-70be-492e-ab84-b03232a9138f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

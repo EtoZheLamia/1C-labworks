@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdc257e0-b5bf-457f-afea-850e7ef1fd68">
+  <name>labwork7</name>
+  <synonym>
+    <key>ru</key>
+    <value>Labwork7</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="600d919e-26a3-41c7-895a-b2c22e33dbab"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3b3708b8-d954-4be3-9891-5bb9eaf00bed"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="061d3305-3e52-4844-b732-ca46a917bfbe"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="52be2725-6b1b-4245-82a3-6184f463effa"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2cfb436e-2176-4c38-a1a6-24c836ddc750"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="bbd9c98f-8e6b-4970-918e-31de34ee3b72"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9e7719b3-5b1e-4f0e-b664-a55a2259939b"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="a9968e27-b3ec-47e0-9947-c5637af41985">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Валюты</catalogs>
+  <reports>Report.КурсыВалют</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+</mdclass:Configuration>

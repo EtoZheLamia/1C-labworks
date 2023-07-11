@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ValCurs ID="R01805F" DateRange1="01.01.2023" DateRange2="10.07.2023" name="Foreign Currency Market Dynamic">
+<Record Date="19.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>63,3142</Value>
+</Record>
+<Record Date="20.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>63,3453</Value>
+</Record>
+<Record Date="21.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>63,4047</Value>
+</Record>
+<Record Date="24.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>63,7026</Value>
+</Record>
+<Record Date="25.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>63,7553</Value>
+</Record>
+<Record Date="26.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,0393</Value>
+</Record>
+<Record Date="27.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,3171</Value>
+</Record>
+<Record Date="28.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,2250</Value>
+</Record>
+<Record Date="31.01.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,4262</Value>
+</Record>
+<Record Date="01.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>65,1198</Value>
+</Record>
+<Record Date="02.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,9767</Value>
+</Record>
+<Record Date="03.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>65,7925</Value>
+</Record>
+<Record Date="04.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>65,3654</Value>
+</Record>
+<Record Date="07.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,9486</Value>
+</Record>
+<Record Date="08.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>64,9193</Value>
+</Record>
+<Record Date="09.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>65,4803</Value>
+</Record>
+<Record Date="10.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>66,7434</Value>
+</Record>
+<Record Date="11.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>66,5767</Value>
+</Record>
+<Record Date="14.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>66,9868</Value>
+</Record>
+<Record Date="15.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,6038</Value>
+</Record>
+<Record Date="16.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,9180</Value>
+</Record>
+<Record Date="17.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,4269</Value>
+</Record>
+<Record Date="18.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,7894</Value>
+</Record>
+<Record Date="21.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,4797</Value>
+</Record>
+<Record Date="22.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,1015</Value>
+</Record>
+<Record Date="23.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,8622</Value>
+</Record>
+<Record Date="28.02.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,7876</Value>
+</Record>
+<Record Date="01.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,6032</Value>
+</Record>
+<Record Date="02.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>67,9900</Value>
+</Record>
+<Record Date="03.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,4407</Value>
+</Record>
+<Record Date="04.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,2866</Value>
+</Record>
+<Record Date="07.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,5299</Value>
+</Record>
+<Record Date="08.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,7065</Value>
+</Record>
+<Record Date="10.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,3037</Value>
+</Record>
+<Record Date="11.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,5543</Value>
+</Record>
+<Record Date="14.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>69,0141</Value>
+</Record>
+<Record Date="15.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>68,6536</Value>
+</Record>
+<Record Date="16.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>69,3585</Value>
+</Record>
+<Record Date="17.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>69,0699</Value>
+</Record>
+<Record Date="18.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>69,5381</Value>
+</Record>
+<Record Date="21.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,2925</Value>
+</Record>
+<Record Date="22.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,1789</Value>
+</Record>
+<Record Date="23.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,6599</Value>
+</Record>
+<Record Date="24.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,9651</Value>
+</Record>
+<Record Date="25.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,5728</Value>
+</Record>
+<Record Date="28.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,2636</Value>
+</Record>
+<Record Date="29.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>70,5834</Value>
+</Record>
+<Record Date="30.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,1131</Value>
+</Record>
+<Record Date="31.03.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,2507</Value>
+</Record>
+<Record Date="01.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,8891</Value>
+</Record>
+<Record Date="04.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,7354</Value>
+</Record>
+<Record Date="05.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,7071</Value>
+</Record>
+<Record Date="06.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,2506</Value>
+</Record>
+<Record Date="07.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,9333</Value>
+</Record>
+<Record Date="08.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,7356</Value>
+</Record>
+<Record Date="11.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>75,9378</Value>
+</Record>
+<Record Date="12.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,2957</Value>
+</Record>
+<Record Date="13.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,4885</Value>
+</Record>
+<Record Date="14.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,5233</Value>
+</Record>
+<Record Date="15.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,3628</Value>
+</Record>
+<Record Date="18.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,4784</Value>
+</Record>
+<Record Date="19.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,0932</Value>
+</Record>
+<Record Date="20.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,3589</Value>
+</Record>
+<Record Date="21.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,2919</Value>
+</Record>
+<Record Date="22.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,1636</Value>
+</Record>
+<Record Date="25.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,0867</Value>
+</Record>
+<Record Date="26.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,8587</Value>
+</Record>
+<Record Date="27.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,4378</Value>
+</Record>
+<Record Date="28.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,8780</Value>
+</Record>
+<Record Date="29.04.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>75,6268</Value>
+</Record>
+<Record Date="03.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>75,1117</Value>
+</Record>
+<Record Date="04.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,5672</Value>
+</Record>
+<Record Date="05.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,3095</Value>
+</Record>
+<Record Date="06.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>72,3374</Value>
+</Record>
+<Record Date="11.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,7745</Value>
+</Record>
+<Record Date="12.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,0387</Value>
+</Record>
+<Record Date="13.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>71,9023</Value>
+</Record>
+<Record Date="16.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,2993</Value>
+</Record>
+<Record Date="17.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,2105</Value>
+</Record>
+<Record Date="18.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,7901</Value>
+</Record>
+<Record Date="19.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,9262</Value>
+</Record>
+<Record Date="20.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,3678</Value>
+</Record>
+<Record Date="23.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,7556</Value>
+</Record>
+<Record Date="24.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,8651</Value>
+</Record>
+<Record Date="25.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,5165</Value>
+</Record>
+<Record Date="26.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,2326</Value>
+</Record>
+<Record Date="27.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,2253</Value>
+</Record>
+<Record Date="30.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,2996</Value>
+</Record>
+<Record Date="31.05.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,6641</Value>
+</Record>
+<Record Date="01.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,8775</Value>
+</Record>
+<Record Date="02.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>73,7579</Value>
+</Record>
+<Record Date="03.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,2393</Value>
+</Record>
+<Record Date="06.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,2017</Value>
+</Record>
+<Record Date="07.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,3350</Value>
+</Record>
+<Record Date="08.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>74,2272</Value>
+</Record>
+<Record Date="09.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>75,0009</Value>
+</Record>
+<Record Date="10.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>75,9657</Value>
+</Record>
+<Record Date="14.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>76,9459</Value>
+</Record>
+<Record Date="15.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>77,5913</Value>
+</Record>
+<Record Date="16.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>77,4364</Value>
+</Record>
+<Record Date="17.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,0419</Value>
+</Record>
+<Record Date="20.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,3191</Value>
+</Record>
+<Record Date="21.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,3965</Value>
+</Record>
+<Record Date="22.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,4473</Value>
+</Record>
+<Record Date="23.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,3159</Value>
+</Record>
+<Record Date="24.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,3760</Value>
+</Record>
+<Record Date="27.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>78,7138</Value>
+</Record>
+<Record Date="28.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>79,2568</Value>
+</Record>
+<Record Date="29.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>79,9591</Value>
+</Record>
+<Record Date="30.06.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>80,8297</Value>
+</Record>
+<Record Date="01.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>81,9759</Value>
+</Record>
+<Record Date="04.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>83,1883</Value>
+</Record>
+<Record Date="05.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>83,2060</Value>
+</Record>
+<Record Date="06.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>83,7684</Value>
+</Record>
+<Record Date="07.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>85,6384</Value>
+</Record>
+<Record Date="08.07.2023" Id="R01805F">
+<Nominal>100</Nominal>
+<Value>85,2110</Value>
+</Record>
+</ValCurs>
