@@ -7,4 +7,4 @@
 * [Лабораторная работа 5](https://github.com/EtoZheLamia/1C-labworks/tree/labwork5)
 * [Лабораторная работа 6](https://github.com/EtoZheLamia/1C-labworks/tree/labwork6)
 * [Лабораторная работа 7](https://github.com/EtoZheLamia/1C-labworks/tree/labwork7)
-
+* [Лабораторная работа 11](https://github.com/EtoZheLamia/1C-labworks/tree/labwork11)
