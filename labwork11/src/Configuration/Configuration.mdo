@@ -39,7 +39,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Студенты</subsystems>
+  <subsystems>Subsystem.Электросамокаты</subsystems>
   <catalogs>Catalog.Предметы</catalogs>
   <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.Электросамокаты</catalogs>
+  <documents>Document.ЗакупкаЭлектросамокатов</documents>
+  <documents>Document.СдачаВАренду</documents>
+  <documents>Document.ВозвратЭлектросамоката</documents>
   <reports>Report.СписокСтудентовПоПредметам</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиЭлектросамокатов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АрендаЭлектросамоката</accumulationRegisters>
 </mdclass:Configuration>

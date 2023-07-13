@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30678077-1074-4f07-89c6-2e3d05e515d3">
+  <producedTypes>
+    <selectionType typeId="9fa93b3e-c05e-4fba-a5e7-332f6ba88f84" valueTypeId="9f2a7ce9-d7e4-4d25-97dd-6692e7dfbf13"/>
+    <listType typeId="7d5880f9-2ad0-42d7-8df9-aea6f5c8e82a" valueTypeId="af7b4040-cde1-43f6-83ca-9204a133e418"/>
+    <managerType typeId="9aafa586-4d96-429a-a52e-7e033e009a1c" valueTypeId="062157fb-4d8b-43a1-b480-a92546a681de"/>
+    <recordSetType typeId="8f89c8c4-35b4-4ffd-a114-ce2d4408ee1c" valueTypeId="9753ebe3-fac5-4d6f-b48b-6737ac12df30"/>
+    <recordKeyType typeId="87d48772-365e-4e9a-bf91-341e5feb0e7b" valueTypeId="d32c177d-2309-4ea2-9626-00c473800af7"/>
+    <recordType typeId="05cbd21f-dc47-48f1-8db2-91ab08ce3933" valueTypeId="bc54abb1-527e-4889-b603-a36fe9e696f1"/>
+  </producedTypes>
+  <name>АрендаЭлектросамоката</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда электросамоката</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4ac06f35-b6b6-4688-8319-12dde7864c11">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="cb775dbf-20f8-4dfd-bb57-7e284f470271">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d977459-368c-4f14-8336-a6958c05f8e9">
+    <name>Электросамокат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электросамокат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Электросамокаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

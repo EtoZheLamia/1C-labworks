@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c1483b3-c1a8-45b6-917d-d0c151dc222b">
+  <name>Студенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Студенты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.GroupConversation</picture>
+  </picture>
+  <content>Catalog.Студенты</content>
+  <content>Catalog.Предметы</content>
+  <content>Report.СписокСтудентовПоПредметам</content>
+</mdclass:Subsystem>

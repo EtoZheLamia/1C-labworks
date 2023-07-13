@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea155a10-5805-4781-8c09-e84c7e75b6e5">
+  <producedTypes>
+    <objectType typeId="db27341d-d855-4ae4-9bd3-2922419db2e5" valueTypeId="a8e8edfd-0043-44d4-8db7-eec1607dd6bd"/>
+    <refType typeId="bbcd8d8b-bd90-4527-9a08-75d8c314251e" valueTypeId="5a631bb0-0f90-4da6-ad3c-19f2658c077b"/>
+    <selectionType typeId="655e668a-d162-4715-9970-11610c19b2cc" valueTypeId="91a7b28b-ccc9-471e-96dc-d16184215106"/>
+    <listType typeId="203caddf-e5a9-4e05-85f6-9767c2e4e1b3" valueTypeId="703a581f-eef9-4f6f-910c-e5324c50312f"/>
+    <managerType typeId="60e29c5d-8d19-42c8-9087-9b1633fdc463" valueTypeId="8cbde967-daca-4585-9772-ec051f82e07c"/>
+  </producedTypes>
+  <name>ВозвратЭлектросамоката</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат электросамоката</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВозвратЭлектросамоката.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.СдачаВАренду</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Возврат электросамоката</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Возврат электросамоката</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Возвраты электросамокатов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Возвраты электросамокатов</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВозвратЭлектросамоката.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиЭлектросамокатов</registerRecords>
+  <registerRecords>AccumulationRegister.АрендаЭлектросамоката</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3363e895-5b06-48ca-87ca-a81f4895470b">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9ec518b-8605-44ed-bdfd-cc123ab59bb7">
+    <name>Электросамокат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электросамокат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Электросамокаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b738882-4320-4361-ad4c-28f21220ed02">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СдачаВАренду</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4fae4f49-b1f2-40f7-8272-eba84bb01d2c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

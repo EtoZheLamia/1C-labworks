@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac00cd5d-5d25-4007-92dd-970acc2ca23a">
+  <producedTypes>
+    <selectionType typeId="a12cab62-4bcf-4922-a725-09d97a82f0ec" valueTypeId="89662ca8-5f79-46f5-9856-5174e7a7ec3f"/>
+    <listType typeId="9fe17d51-eea9-4e81-89e2-4aeeb7634fbe" valueTypeId="c839ff8a-143f-4d67-afec-604591731883"/>
+    <managerType typeId="4de403af-5db7-47ce-bef8-f901c32b4fd7" valueTypeId="9bca47de-39b5-41a1-a7b4-610212cc6b8c"/>
+    <recordSetType typeId="33d25750-9ad7-4ba4-bdf2-00f020db73e4" valueTypeId="b322e85f-f94a-4e80-9cc5-f00d0b260357"/>
+    <recordKeyType typeId="8b22041c-75cb-4252-9b30-e348a93f14ec" valueTypeId="e1f3dd4a-a1e7-4532-b7b4-11c9247234b0"/>
+    <recordType typeId="cff8dd79-48ad-4b38-9396-d015cc68abab" valueTypeId="48293371-0f5a-44de-a560-7fa390c619b5"/>
+  </producedTypes>
+  <name>ОстаткиЭлектросамокатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки электросамокатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ee0fa9da-4828-4782-a1f8-8b00a347ec75">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="dc6049b9-159f-4ae6-9904-49b7431b9028">
+    <name>Электросамокат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электросамокат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Электросамокаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

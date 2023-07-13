@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f919839b-e155-49c4-854c-6bccb143e7ac">
+  <producedTypes>
+    <objectType typeId="2c2fb1e3-d6fe-449e-8fda-19e59e3e3f33" valueTypeId="eb6c4f6a-6108-4e2c-bc1f-7d4a4771cfaa"/>
+    <refType typeId="368e12d5-cac3-4cdc-9790-4e2640835536" valueTypeId="15b098f6-710f-4c10-a64b-2fbbcdd8394a"/>
+    <selectionType typeId="af19be9d-bd15-4d1b-8a53-4eb1b025d24f" valueTypeId="24e6e9f6-21cb-4bec-bd39-998439b1c3ef"/>
+    <listType typeId="e2c498a1-d429-4105-b994-f3849fa6a49c" valueTypeId="5a84afb6-b8e4-4c02-a208-8f87d2bb3fc9"/>
+    <managerType typeId="294f992f-3a60-46ef-9c94-4912bbca49fb" valueTypeId="c66e1292-4eab-4140-84c2-ee42334a2e0e"/>
+  </producedTypes>
+  <name>СдачаВАренду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СдачаВАренду.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СдачаВАренду.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиЭлектросамокатов</registerRecords>
+  <registerRecords>AccumulationRegister.АрендаЭлектросамоката</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="29162270-f709-4c49-ab43-b590c4acdc20">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc8d952f-8b57-46e7-b6f6-70fa6e95731a">
+    <name>Электросамокат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электросамокат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Электросамокаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8bdd8281-cf67-4d22-acf3-7564db3e938a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
